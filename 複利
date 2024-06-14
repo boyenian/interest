@@ -1,0 +1,11 @@
+def f(money,利息,month):
+    result=0
+    for i in range(month):#分開算每個月存的錢
+        result+=money*((利息+100)/100)**(month-1)
+#i表示到第幾個月了
+#每個月存money元
+#月息interest%
+#月month
+#用for，答案要return
+    return result
+print(100,100,5)
